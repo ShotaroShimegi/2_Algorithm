@@ -1,0 +1,44 @@
+# Compiled files
+*.exe
+*.out
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Executables
+maze
+maze.exe
+mouse_sim
+mouse_sim.exe
+test_maze
+test_maze.exe
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Editor files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+bin/
+obj/
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
