@@ -24,7 +24,11 @@ test_maze.exe
 *.pdb
 
 # Editor files
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 .vs/
 *.swp
 *.swo

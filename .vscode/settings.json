@@ -1,0 +1,18 @@
+{
+  // Git自動承認設定
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "text": "Git操作の承認ルール: git pull, git push, git commit, git merge, git rebase, git reset, git branch -D など、リモートリポジトリやコミット履歴に影響を与えるコマンドは実行前に必ず確認を求めること。git status, git log, git diff, git branch, git remote -v などの読み取り専用コマンドは自動で実行してよい。"
+    }
+  ],
+  
+  // Git関連の推奨設定
+  "git.confirmSync": true,
+  "git.confirmForcePush": true,
+  "git.confirmNoVerifyCommit": true,
+  "git.showPushSuccessNotification": true,
+  
+  // ターミナルでのGit操作の安全性向上
+  "terminal.integrated.confirmOnKill": "editor",
+  "terminal.integrated.confirmOnExit": "hasChildProcesses"
+}
